@@ -1,0 +1,33 @@
+{
+  "name": "students-register",
+  "version": "1.0.0",
+  "description": "Students Info Web service",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-El/mock-json-db-server.git"
+  },
+  "keywords": [
+    "API",
+    "JSON",
+    "Server"
+  ],
+  "author": "CodeEnzyme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Victor-El/mock-json-db-server/issues"
+  },
+  "homepage": "https://github.com/Victor-El/mock-json-db-server#readme",
+  "dependencies": {
+    "json-server": "^0.16.2"
+  },
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "jest": "^26.5.0",
+    "supertest": "^5.0.0"
+  }
+}
